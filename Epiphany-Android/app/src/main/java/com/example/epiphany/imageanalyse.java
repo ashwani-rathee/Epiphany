@@ -44,7 +44,7 @@ public class imageanalyse implements ImageAnalysis.Analyzer {
             try {
                 Result result = new QRCodeMultiReader().decode(binaryBitmap);
                 listener.onQRCodeFound(result.getText());
-                QRCode qrcode = com.google.zxing.qrcode.encoder.Encoder.encode(result,0);
+                QRCode qrcode = com.google.zxing.qrcode.encoder.Encoder.encode("@drawable/music.png",0);
                 int qrCodeVersion = qrcode.getVersion().getVersionNumber();
             } catch (FormatException | ChecksumException | NotFoundException e) {
                 listener.qrCodeNotFound();
