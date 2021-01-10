@@ -1,4 +1,5 @@
 Epiphany
+#Abandoned as needed to change the language of programming
 
 This is my team and mine official submission to nwHacks 2021: 
 We explore the usage of QR codes in world of music.
