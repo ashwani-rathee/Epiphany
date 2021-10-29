@@ -1,3 +1,5 @@
+This project was abandoned in Jan 2021 and is being revived in October 2021 and is to be written in flutter and use python for testing
+
 Epiphany
 #Abandoned as needed to change the language of programming
 
